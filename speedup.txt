@@ -1,0 +1,4 @@
+tempo(1) = 2.719
+tempo(2) = 1.314    speedup(2) = 2.069
+tempo(5) = 0.999    speedup(5) = 2.72
+tempo(10) = 0.966   speedup(10) = 2.81

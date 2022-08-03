@@ -1,0 +1,4 @@
+O uso da diretiva collapse(n) faz com que os n nested loops sem linhas de código extra entre eles sejam todos paralelizados.
+
+Para corrigir a função de multiplicação, basta usar private(i,j), que faz com que cada thread possua uma cópia local das variáveis e 
+não acesse a versão compartilhada das mesmas, que ocorre caso private nao seja usado.
